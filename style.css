@@ -75,7 +75,7 @@ li {
     /* Cria um layout flexível */
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
-    background-color: rgb(43, 226, 150);
+    background-color: rgb(12, 88, 9);
     /* Cor de fundo */
 }
 
@@ -143,13 +143,11 @@ header {
 }
 
 
-body{ 
-    background: rgb(175,16,98);
-    background: -moz-linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
-    background: linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#af1062",endColorstr="#32d47c",GradientType=1); 
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 52, 1) 0%, rgba(9, 122, 55, 1) 6%, rgba(16, 145, 71, 0.9304096638655462) 33%, rgba(7, 144, 104, 1) 100%, rgba(5, 162, 143, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
+
 #check {
     display: none;
 }
