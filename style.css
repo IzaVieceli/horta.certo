@@ -164,7 +164,7 @@ label {
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
-    color: #fe0101;
+    color: #ffffff;
     margin-left: 5px;
 }
 
@@ -223,7 +223,7 @@ main {
     /* Cobertura total */
     background-position: center;
     /* Centraliza a imagem */
-    color: #f3f0f0;
+    color: #8d0000;
     /* Cor do texto */
     display: flex;
     /* Cria um layout flexível */
