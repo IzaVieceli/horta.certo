@@ -1,0 +1,246 @@
+/* Reset css */
+* {
+    margin: 0;
+    /* Remove margens */
+    border: 0;
+    /* Remove bordas */
+    padding: 0;
+    /* Remove preenchimentos */
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 100PX;
+    overflow: hidden;
+    /* Limpa a flutuação */
+}
+
+.cult {
+    margin-top: 130PX;
+    margin-bottom: 20px;
+
+}
+
+.img-small {
+    width: 35.5%;
+    /* Defina a largura desejada */
+    height: auto;
+    /* Para manter a proporção da imagem */
+    float: left;
+    /* Ou float: right; dependendo do lado que você deseja flutuar */
+    margin-right: 20px;
+    /* Margem direita para separar a imagem do texto */
+    border-radius: 10px;
+    /* Arredonda as bordas da imagem */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Adiciona uma sombra à imagem */
+    margin-left: 50px;
+}
+
+
+.text {
+    overflow: hidden;
+    /* Limpa a flutuação */
+}
+
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+    /* Centraliza horizontalmente o contêiner */
+
+}
+
+.Flex {
+    display: flex;
+    /* Cria um layout flexível */
+    justify-content: space-between;
+    /* Distribui os itens igualmente ao longo do eixo principal */
+    background-color: rgb(43, 226, 150);
+    /* Cor de fundo */
+}
+
+/* topo do site */
+
+#topo {
+    position: fixed;
+    /* Define a posição fixa */
+    right: 10px;
+    /* Distância do lado direito */
+    bottom: 10px;
+    /* Distância da parte inferior */
+}
+
+.galeria {
+    display: flex;
+    /* Cria um layout flexível */
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center;
+    /* Alinha os itens ao centro */
+}
+
+.card {
+    width: 200px !important;
+    /* Largura fixa dos cartões */
+    margin: 10px;
+    /* Margem ao redor dos cartões */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+}
+
+.card img {
+    width: 100%;
+    /* Largura da imagem */
+    height: auto;
+    /* Altura automática */
+    border-radius: 10px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Altera o cursor para indicar que a imagem é clicável */
+}
+
+.card h3 {
+    margin-top: 10px;
+    /* Margem superior */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
+
+/* Cabeçalho */
+header {
+    height: 70px;
+    /* Ajuste a altura conforme necessário */
+    padding-top: 30px;
+    /* Adiciona espaço acima do botão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(9, 60, 36);
+    background: linear-gradient(90deg, rgba(9, 60, 36, 1) 17%, rgba(9, 121, 38, 1) 54%, rgba(50, 212, 124, 0.999019676229867) 100%);
+}
+
+
+body{ 
+    background: rgb(175,16,98);
+    background: -moz-linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
+    background: linear-gradient(90deg, rgba(175,16,98,1) 41%, rgba(50,212,124,0.999019676229867) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#af1062",endColorstr="#32d47c",GradientType=1); 
+}
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    position: fixed;
+    top: 15px;
+    /* Ajusta a distância do topo conforme necessário */
+    right: 15px;
+    color: rgba(11, 10, 10, 0.5);
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    /* Remove os marcadores de lista */
+    background: linear-gradient(to bottom, #92FE9D, #00C9FF);
+
+    /* Cor de fundo */
+    height: 100vh;
+    /* Altura igual à altura da viewport */
+    position: fixed;
+    /* Define a posição fixa */
+    top: 100px;
+    /* Distância do topo */
+    right: -65%;
+    /* Posiciona para fora da tela */
+    width: 25%;
+    /* Largura */
+    transition: all 0.2s;
+    /* Efeito de transição */
+}
+
+#check:checked~ul {
+    right: 0;
+    /* Mostra o menu ao ser clicado */
+}
+
+nav ul li {
+    padding: 20px;
+    /* Preenchimento interno */
+    border-bottom: 1px solid #a9a9a9;
+    /* Borda inferior */
+    text-align: right;
+    /* Alinhamento de texto à direita */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Remove a decoração do link */
+    color: rgba(11, 10, 10, 0.5);
+    /* Cor do texto */
+
+}
+
+
+/* Destaque */
+main {
+    height: 70vh;
+    /* Altura do destaque */
+    background: url(./fotos/manjericao.jpeg);
+    /* Imagem de fundo */
+    background-size: cover;
+    /* Cobertura total */
+    background-position: center;
+    /* Centraliza a imagem */
+    color: #f3f0f0;
+    /* Cor do texto */
+    display: flex;
+    /* Cria um layout flexível */
+    flex-direction: column;
+    /* Direção dos itens */
+    justify-content: center;
+    /* Alinhamento ao centro */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+}
+
+main h1 {
+    font-size: 2em;
+    /* Tamanho da fonte */
+    text-shadow: #000 0.05em 0.05em 0.05em;
+    /* Sombra do texto */
+}
