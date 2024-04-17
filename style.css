@@ -173,7 +173,7 @@ label {
 nav ul {
     list-style: none;
     /* Remove os marcadores de lista */
-    background: linear-gradient(to bottom, #92FE9D, #00C9FF);
+    background: linear-gradient(to bottom, #000000, #2224cd);
 
     /* Cor de fundo */
     height: 100vh;
