@@ -138,8 +138,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: rgb(9, 60, 36);
-    background: linear-gradient(90deg, rgba(9, 60, 36, 1) 17%, rgba(9, 121, 38, 1) 54%, rgba(50, 212, 124, 0.999019676229867) 100%);
+    background: rgb(40, 130, 88);
+    background: linear-gradient(90deg, rgb(77, 126, 103) 17%, rgb(127, 145, 131) 54%, rgba(173, 187, 180, 0.999) 100%);
 }
 
 
