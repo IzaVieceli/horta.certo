@@ -157,6 +157,19 @@ li {
     /* Tamanho da fonte */
 }
 
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #0056b3;
+}
+
 
 /* Cabeçalho */
 header {
