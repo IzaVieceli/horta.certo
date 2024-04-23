@@ -83,6 +83,7 @@ li {
     /* Cria um layout flexível */
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
+}
     
 
 .footer {
