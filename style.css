@@ -210,36 +210,29 @@ li {
 .video-section {
     display: flex;
     align-items: flex-start;
-    /* Alinha os itens ao topo */
     margin-top: 20px;
-    /* Adiciona margem de 20px do topo */
 }
 
 .video-container {
-    margin-left: 40px;
-    /* Adiciona margem à esquerda do vídeo */
-    margin-right: 10px;
-    /* Adiciona um espaço entre o vídeo e o texto */
+    margin-right: 40px;
+    /* Alterei para margin-right */
     overflow: hidden;
-    /* Esconde qualquer parte do vídeo que ultrapasse a borda */
 }
 
 .video-container iframe {
-    width: 80%; /* Ajusta a largura do vídeo para 80% */
+    width: calc(100% + 40px);
+    /* Aumentei a largura para incluir a margem direita */
+    margin-left: -40px;
+    /* Compensei a margem direita negativa para manter o vídeo alinhado */
     border: 2px solid #ccc;
-    /* Adiciona uma borda sólida */
     border-radius: 10px;
-    /* Arredonda os cantos do vídeo */
     box-sizing: border-box;
-    /* Faz com que a borda esteja incluída na largura do vídeo */
 }
 
 .text-container {
     flex: 1;
     margin-top: 20px;
-    /* Adiciona margem de 20px do topo */
     margin-left: 20px;
-    /* Adiciona margem à esquerda do texto */
 }
 
 /* Cabeçalho */
