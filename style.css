@@ -210,13 +210,13 @@ li {
 .video-section {
     display: flex;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .video-container {
-    margin-right: 40px;
+    margin-left: 60px;
     overflow: hidden;
-    width: 80%; /* Definindo a largura do vídeo */
+    width: 50%; /* Definindo a largura do vídeo */
 }
 
 .video-container iframe {
