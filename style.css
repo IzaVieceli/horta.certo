@@ -83,7 +83,7 @@ li {
     /* Cria um layout flexível */
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
-    background-color: #d0f0c0;
+    background-color: #90EE90;
     /* Cor de fundo */
 }
 
@@ -245,7 +245,7 @@ header {
 
 
 body {
-    background-color: #D0F0C0
+    background-color: #90EE90
 }
 
 #check {
