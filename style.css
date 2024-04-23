@@ -217,7 +217,7 @@ li {
 }
 
 .video-container iframe {
-    width: calc(70% - 40px); /* Ajusta a largura do vídeo considerando a margem à esquerda */
+    width: 100%; /* Mantém o vídeo com largura de 100% */
     border: 2px solid #ccc; /* Adiciona uma borda sólida */
     border-radius: 10px; /* Arredonda os cantos do vídeo */
     box-sizing: border-box; /* Faz com que a borda esteja incluída na largura do vídeo */
@@ -226,6 +226,7 @@ li {
 .text-container {
     flex: 1;
     margin-top: 20px; /* Adiciona margem de 20px do topo */
+    margin-left: 20px; /* Adiciona margem à esquerda do texto */
 }
 
 
