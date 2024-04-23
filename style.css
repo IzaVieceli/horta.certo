@@ -215,15 +215,12 @@ li {
 
 .video-container {
     margin-right: 40px;
-    /* Alterei para margin-right */
     overflow: hidden;
+    width: 80%; /* Definindo a largura do vídeo */
 }
 
 .video-container iframe {
-    width: calc(100% + 40px);
-    /* Aumentei a largura para incluir a margem direita */
-    margin-left: -40px;
-    /* Compensei a margem direita negativa para manter o vídeo alinhado */
+    width: 100%;
     border: 2px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
@@ -232,7 +229,6 @@ li {
 .text-container {
     flex: 1;
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 /* Cabeçalho */
