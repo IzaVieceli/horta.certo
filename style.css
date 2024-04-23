@@ -87,7 +87,7 @@ li {
 }
 
 .footer {
-    
+    margin-top: 20px; /* Adiciona margem acima do footer */
     padding: 20px; /* Adiciona algum preenchimento interno para espaçamento */
     text-align: center; /* Alinha o texto ao centro dentro do footer, se necessário */
     background: linear-gradient(90deg, rgb(42, 60, 52) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%);
