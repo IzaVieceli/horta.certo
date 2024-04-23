@@ -70,6 +70,13 @@ li {
     flex-wrap: wrap;
 }
 
+.container-principal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px; /* Adiciona uma margem de 20px ao redor do contêiner */
+}
+
 .Flex {
     display: flex;
     /* Cria um layout flexível */
