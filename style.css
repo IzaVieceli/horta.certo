@@ -83,7 +83,7 @@ li {
     /* Cria um layout flexível */
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
-    background-color: rgb(12, 88, 9);
+    background-color: #d0f0c0;
     /* Cor de fundo */
 }
 
