@@ -212,8 +212,11 @@ li {
 .video-container {
     flex: 1;
     margin-right: 20px; /* Adiciona um espaço entre o vídeo e o texto */
+    margin-top: 20px; /* Adiciona margem acima do vídeo */
+    margin-left: 20px; /* Adiciona margem à esquerda do vídeo */
     overflow: hidden; /* Esconde qualquer parte do vídeo que ultrapasse a borda */
 }
+
 
 .video-container iframe {
     width: 70%; /* Faz o vídeo ocupar 100% da largura do contêiner */
