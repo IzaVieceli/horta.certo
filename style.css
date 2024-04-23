@@ -65,9 +65,9 @@ li {
 
 /* Layout */
 .container {
-    margin: 0 auto;
-    /* Centraliza horizontalmente o contêiner */
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Flex {
