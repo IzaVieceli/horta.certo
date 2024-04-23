@@ -211,7 +211,7 @@ li {
 }
 
 .video-container iframe {
-    width: 100%; /* Faz o vídeo ocupar 100% da largura do contêiner */
+    width: 40%; /* Faz o vídeo ocupar 100% da largura do contêiner */
     border-radius: 10px; /* Arredonda os cantos do vídeo */
 }
 
