@@ -202,6 +202,8 @@ li {
     background-color: #0056b3;
 }
 
+/* estilo video */
+
 .video-section {
     display: flex;
     align-items: flex-start; /* Alinha os itens ao topo */
@@ -214,7 +216,7 @@ li {
 }
 
 .video-container iframe {
-    width: 100%; /* Faz o vídeo ocupar 100% da largura do contêiner */
+    width: 70%; /* Faz o vídeo ocupar 100% da largura do contêiner */
     border: 2px solid #ccc; /* Adiciona uma borda sólida */
     border-radius: 10px; /* Arredonda os cantos do vídeo */
     box-sizing: border-box; /* Faz com que a borda esteja incluída na largura do vídeo */
@@ -225,7 +227,7 @@ li {
 }
 
 
-
+/* fim estilo video */
 
 /* Cabeçalho */
 header {
