@@ -83,9 +83,7 @@ li {
     /* Cria um layout flexível */
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
-    background-color: #8FBC8F;
-    /* Cor de fundo */
-}
+    
 
 .footer {
     margin-top: 40px;
