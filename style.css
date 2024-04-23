@@ -129,12 +129,20 @@ li {
 }
 
 .new-card {
-    width: 200px !important;
-    /* Largura fixa dos novos cartões */
+    width: calc(33.33% - 20px);
+    /* Largura dos cards (33.33% da largura do container menos a margem) */
     margin: 10px;
-    /* Margem ao redor dos novos cartões */
-    text-align: center;
-    /* Alinhamento de texto ao centro */
+    /* Margem entre os cards */
+    background-color: #ffffff;
+    /* Cor de fundo do card */
+    border-radius: 10px;
+    /* Borda arredondada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Sombra do card */
+    overflow: hidden;
+    /* Esconde o conteúdo que ultrapassa os limites do card */
+    display: inline-block;
+    /* Exibe os cards em linha */
 }
 
 .new-card img {
@@ -142,19 +150,26 @@ li {
     /* Largura da imagem */
     height: auto;
     /* Altura automática */
-    border-radius: 10px;
-    /* Borda arredondada */
-    cursor: pointer;
-    /* Altera o cursor para indicar que a imagem é clicável */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* Arredonda apenas os cantos superiores da imagem */
 }
 
 .new-card-text {
-    margin-top: 10px;
-    /* Margem superior */
+    padding: 10px;
+    /* Preenchimento interno */
     text-align: center;
     /* Alinhamento de texto ao centro */
-    font-size: 16px;
-    /* Tamanho da fonte */
+}
+
+.new-card-text h2 {
+    margin-bottom: 10px;
+    /* Margem inferior do título */
+}
+
+.new-card-text p {
+    margin-bottom: 0;
+    /* Remove a margem inferior do parágrafo */
 }
 
 .btn-saiba-mais {
@@ -164,11 +179,14 @@ li {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 10px;
+    /* Margem superior */
 }
 
 .btn-saiba-mais:hover {
     background-color: #0056b3;
 }
+
 
 
 /* Cabeçalho */
