@@ -128,6 +128,36 @@ li {
     /* Tamanho da fonte */
 }
 
+.new-card {
+    width: 200px !important;
+    /* Largura fixa dos novos cartões */
+    margin: 10px;
+    /* Margem ao redor dos novos cartões */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+}
+
+.new-card img {
+    width: 100%;
+    /* Largura da imagem */
+    height: auto;
+    /* Altura automática */
+    border-radius: 10px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Altera o cursor para indicar que a imagem é clicável */
+}
+
+.new-card-text {
+    margin-top: 10px;
+    /* Margem superior */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
+
+
 /* Cabeçalho */
 header {
     height: 70px;
