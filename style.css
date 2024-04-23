@@ -207,7 +207,6 @@ li {
 }
 
 /* estilo video */
-
 .video-section {
     display: flex;
     align-items: flex-start;
@@ -226,8 +225,7 @@ li {
 }
 
 .video-container iframe {
-    width: 100%;
-    /* Mantém o vídeo com largura de 100% */
+    width: 80%; /* Ajusta a largura do vídeo para 80% */
     border: 2px solid #ccc;
     /* Adiciona uma borda sólida */
     border-radius: 10px;
@@ -243,10 +241,6 @@ li {
     margin-left: 20px;
     /* Adiciona margem à esquerda do texto */
 }
-
-
-
-/* fim estilo video */
 
 /* Cabeçalho */
 header {
