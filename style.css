@@ -205,16 +205,16 @@ li {
 .video-container {
     flex: 1;
     margin-right: 20px; /* Adiciona um espaço entre o vídeo e o texto */
-    border: 2px solid #ccc; /* Adiciona uma borda sólida */
-    border-radius: 10px; /* Arredonda os cantos */
     overflow: hidden; /* Esconde qualquer parte do vídeo que ultrapasse a borda */
 }
 
 .video-container iframe {
-    width: 40%; /* Faz o vídeo ocupar 100% da largura do contêiner */
+    width: 40%; /* Define o vídeo para ocupar 40% da largura do contêiner */
+    border: 2px solid #ccc; /* Adiciona uma borda sólida */
     border-radius: 10px; /* Arredonda os cantos do vídeo */
+    box-sizing: border-box; /* Faz com que a borda esteja incluída na largura do vídeo */
+    margin-right: 20px; /* Adiciona um espaço entre o vídeo e o texto */
 }
-
 
 
 
