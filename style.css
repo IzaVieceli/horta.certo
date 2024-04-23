@@ -215,6 +215,7 @@ li {
 
 .video-container {
     margin-left: 60px;
+    margin-right: 20px;
     overflow: hidden;
     width: 50%; /* Definindo a largura do vídeo */
 }
