@@ -129,7 +129,7 @@ li {
 }
 
 .new-card {
-    width: calc(33.33% - 20px);
+    width: calc(20% - 20px);
     /* Largura dos cards (33.33% da largura do container menos a margem) */
     margin: 10px;
     /* Margem entre os cards */
