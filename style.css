@@ -129,10 +129,10 @@ li {
 }
 
 .new-card {
-    width: calc(20% - 20px);
-    /* Largura dos cards (33.33% da largura do container menos a margem) */
-    margin: 10px;
-    /* Margem entre os cards */
+    width: calc(25% - 20px);
+    /* Largura dos cards (25% da largura do container menos a margem) */
+    margin: 10px auto;
+    /* Margem automática na parte superior e inferior e centralizada nas laterais */
     background-color: #ffffff;
     /* Cor de fundo do card */
     border-radius: 10px;
@@ -144,6 +144,7 @@ li {
     display: inline-block;
     /* Exibe os cards em linha */
 }
+
 
 .new-card img {
     width: 100%;
