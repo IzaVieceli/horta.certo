@@ -86,7 +86,12 @@ li {
     /* Cor de fundo */
 }
 
-/* topo do site */
+.footer {
+    background-color: #ccc; /* Define a cor de fundo como cinza */
+    padding: 20px; /* Adiciona algum preenchimento interno para espaçamento */
+    text-align: center; /* Alinha o texto ao centro dentro do footer, se necessário */
+}
+
 
 #topo {
     position: fixed;
