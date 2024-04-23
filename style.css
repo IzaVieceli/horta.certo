@@ -202,25 +202,17 @@ li {
     background-color: #0056b3;
 }
 
-.video-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
 .video-container {
     flex: 1;
     margin-right: 20px; /* Adiciona um espaço entre o vídeo e o texto */
+    border: 2px solid #ccc; /* Adiciona uma borda sólida */
+    border-radius: 10px; /* Arredonda os cantos */
+    overflow: hidden; /* Esconde qualquer parte do vídeo que ultrapasse a borda */
 }
 
-.text-container {
-    flex: 1;
-}
-
-.text-container h2,
-.text-container p {
-    margin-bottom: 10px;
+.video-container iframe {
+    width: 100%; /* Faz o vídeo ocupar 100% da largura do contêiner */
+    border-radius: 10px; /* Arredonda os cantos do vídeo */
 }
 
 
