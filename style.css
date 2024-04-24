@@ -84,7 +84,7 @@ li {
     justify-content: space-between;
     /* Distribui os itens igualmente ao longo do eixo principal */
 }
-    
+
 
 .footer {
     margin-top: 40px;
@@ -163,12 +163,9 @@ li {
 
 .new-card img {
     width: 100%;
-    /* Largura da imagem */
-    height: auto;
-    /* Altura automática */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    /* Arredonda apenas os cantos superiores da imagem */
+
 }
 
 .new-card-text {
@@ -214,7 +211,8 @@ li {
     margin-left: 60px;
     margin-right: 20px;
     overflow: hidden;
-    width: 50%; /* Definindo a largura do vídeo */
+    width: 50%;
+    /* Definindo a largura do vídeo */
 }
 
 .video-container iframe {
