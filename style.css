@@ -231,7 +231,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    margin-bottom: 10%;
     right: 0;
     background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%);
 }
