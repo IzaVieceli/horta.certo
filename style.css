@@ -106,7 +106,7 @@ li {
     /* Permite que os itens quebrem para a próxima linha */
     justify-content: center;
     /* Alinha os itens ao centro */
-    margin: 70px !important;
+    margin: 20px !important;
 }
 
 .card {
