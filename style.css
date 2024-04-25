@@ -87,7 +87,7 @@ li {
     /* Adiciona algum preenchimento interno para espaçamento */
     text-align: center;
     /* Alinha o texto ao centro dentro do footer, se necessário */
-    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(176, 180, 178, 0.999) 100%) ;
+    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%) ;
 }
 
 #topo {
@@ -231,7 +231,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(176, 180, 178, 0.999) 100%) ;
+    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%);
+}
 
 
 body {
