@@ -79,10 +79,13 @@ li {
     /* Distribui os itens igualmente ao longo do eixo principal */
 }
 
-#2-secao {
-    margin-top: 100px; /* Adiciona uma margem superior de 20 pixels */
-    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+#secao-2 {
+    margin-top: 100px;
+    /* Adiciona uma margem superior de 100px */
+    margin-bottom: 20px;
+    /* Adiciona uma margem inferior de 20px */
 }
+
 
 
 .footer {
