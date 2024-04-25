@@ -21,7 +21,7 @@ h2 {
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 li {
@@ -229,7 +229,6 @@ header {
     padding-top: 30px;
     /* Adiciona espaço acima do botão */
     position: fixed;
-    margin-bottom: 10px;
     top: 0;
     left: 0;
     right: 0;
