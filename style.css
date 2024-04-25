@@ -225,9 +225,10 @@ header {
 
 
 body {
-    background-color: #8FBC8F
+    background-color: #8FBC8F;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 #check {
     display: none;
