@@ -326,3 +326,7 @@ main h1 {
     text-shadow: #000 0.05em 0.05em 0.05em;
     /* Sombra do texto */
 }
+
+{img class="special-image" src="./fotos/hortaAp.jpeg" alt="foto de um idoso plantando no seu apartamento">
+    img-right
+}
