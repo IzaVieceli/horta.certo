@@ -327,6 +327,6 @@ main h1 {
     /* Sombra do texto */
 }
 
-{img class="special-image" src="./fotos/hortaAp.jpeg" alt="foto de um idoso plantando no seu apartamento">
+{img class "img-small" src="./fotos/hortaAp.jpeg" alt="foto de um idoso plantando no seu apartamento">
     img-right
 }
