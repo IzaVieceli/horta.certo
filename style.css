@@ -66,12 +66,14 @@
     /* Adiciona uma margem inferior de 20px */
     margin-left: 20px;
     margin-right: 20px;
-
     font-size: large;
 }
 
 .titulo-secundario{
   text-align: center;  
+  margin-top: 20px;
+  /* Adiciona uma margem superior de 150px */
+  margin-bottom: 20px;
 }
 
 
