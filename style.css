@@ -86,14 +86,15 @@
 
 
 .footer {
-    margin-top: 40px;
-    /* Adiciona margem acima do footer */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     padding: 20px;
-    /* Adiciona algum preenchimento interno para espaçamento */
     text-align: center;
-    /* Alinha o texto ao centro dentro do footer, se necessário */
     background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%);
 }
+
 
 #topo {
     position: fixed;
