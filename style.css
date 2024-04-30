@@ -59,7 +59,7 @@
     /* Distribui os itens igualmente ao longo do eixo principal */
 }
 
-#secao-2 {
+.primeiro {
     margin-top: 100px;
     /* Adiciona uma margem superior de 100px */
     margin-bottom: 20px;
