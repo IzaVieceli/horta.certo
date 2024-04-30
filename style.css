@@ -59,11 +59,14 @@
     /* Distribui os itens igualmente ao longo do eixo principal */
 }
 
-.primeiro {
-    margin-top: 150px !important;
+.primeiro-paragrafo {
+    margin-top: 100px !important;
     /* Adiciona uma margem superior de 150px */
     margin-bottom: 20px;
     /* Adiciona uma margem inferior de 20px */
+    margin-left: 20px;
+    margin-right: 20px;
+
     font-size: large;
 }
 
@@ -76,8 +79,8 @@
     /* Adiciona algum preenchimento interno para espaçamento */
     text-align: center;
     /* Alinha o texto ao centro dentro do footer, se necessário */
-    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%) ;
- }
+    background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%);
+}
 
 #topo {
     position: fixed;
@@ -95,7 +98,7 @@
     /* Permite que os itens quebrem para a próxima linha */
     justify-content: center;
     /* Alinha os itens ao centro */
-    
+
 }
 
 .card {
@@ -190,7 +193,7 @@
     align-items: flex-start;
     margin-top: 30px;
     margin-right: 20px;
-    
+
 }
 
 .video-container {
@@ -230,8 +233,8 @@ header {
 body {
     background-color: #8FBC8F;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
 
 
@@ -331,8 +334,6 @@ main h1 {
 }
 
 .right-image {
- float: right;
+    float: right;
 
 }
-
-
