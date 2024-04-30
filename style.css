@@ -81,15 +81,10 @@
     text-align: center;
     margin-top: 20px;
     /* Adiciona uma margem superior de 150px */
-    margin-bottom: 20px;
-    color: #0400ff;
+        color: #0400ff;
 
 }
-.p{
-    margin-top: 20px;
-    /* Adiciona uma margem superior de 150px */
-    margin-bottom: 20px; 
-}
+
 
 .footer {
     margin-top: 40px;
