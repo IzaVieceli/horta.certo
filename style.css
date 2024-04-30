@@ -70,6 +70,9 @@
     font-size: large;
 }
 
+.titulo-secundario{
+  text-align: center;  
+}
 
 
 .footer {
@@ -332,6 +335,8 @@ main h1 {
     text-shadow: #000 0.05em 0.05em 0.05em;
     /* Sombra do texto */
 }
+
+.cu
 
 .right-image {
     float: right;
