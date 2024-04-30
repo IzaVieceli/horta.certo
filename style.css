@@ -77,10 +77,7 @@
     text-align: center;
     /* Alinha o texto ao centro dentro do footer, se necessário */
     background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%) ;
-    margin-left: auto;
-    /* Define a margem esquerda como automática para alinhar à borda direita do contêiner pai */
-    margin-right: auto;
-    }
+ }
 
 #topo {
     position: fixed;
@@ -231,8 +228,6 @@ header {
 body {
     background-color: #8FBC8F;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
     
     
 }
