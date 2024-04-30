@@ -64,10 +64,6 @@
     /* Adiciona uma margem superior de 150px */
     margin-bottom: 20px;
     /* Adiciona uma margem inferior de 20px */
-    margin-left: 20px;
-    /* Adiciona uma margem esquerda de 20px */
-    margin-right: 20px;
-    /* Adiciona uma margem direita de 20px */
     font-size: large;
 }
 
@@ -232,6 +228,9 @@ header {
 body {
     background-color: #8FBC8F;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    
     
 }
 
