@@ -37,12 +37,7 @@
 }
 
 
-/* Layout */
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+
 
 .container-principal {
     display: flex;
@@ -86,7 +81,7 @@
 
 
 .footer {
-    position: fixed;
+    
     bottom: 0;
     left: 0;
     width: 100%;
