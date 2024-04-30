@@ -69,14 +69,22 @@
     font-size: large;
 }
 
-.titulo-secundario{
-  text-align: center;  
-  margin-top: 20px;
-  /* Adiciona uma margem superior de 150px */
-  margin-bottom: 20px;
-  color: #ff2600;
+.titulo-secundario {
+    text-align: center;
+    margin-top: 20px;
+    /* Adiciona uma margem superior de 150px */
+    margin-bottom: 20px;
+    color: #ff2600;
 }
 
+.titulo-terceiro {
+    text-align: center;
+    margin-top: 20px;
+    /* Adiciona uma margem superior de 150px */
+    margin-bottom: 20px;
+    color: #0400ff;
+
+}
 
 .footer {
     margin-top: 40px;
@@ -339,9 +347,7 @@ main h1 {
     /* Sombra do texto */
 }
 
-.cu
-
-.right-image {
+.cu .right-image {
     float: right;
 
 }
