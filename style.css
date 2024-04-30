@@ -77,6 +77,10 @@
     text-align: center;
     /* Alinha o texto ao centro dentro do footer, se necessário */
     background: linear-gradient(90deg, rgb(10, 14, 12) 17%, rgb(95, 100, 96) 54%, rgba(173, 187, 180, 0.999) 100%) ;
+    margin-left: 0px;
+    /* Adiciona uma margem esquerda de 20px */
+    margin-right: 0px;
+    /* Adiciona uma margem direita de 20px */
 }
 
 #topo {
