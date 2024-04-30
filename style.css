@@ -37,7 +37,12 @@
 }
 
 
-
+/* Layout */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .container-principal {
     display: flex;
