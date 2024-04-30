@@ -60,7 +60,7 @@
 }
 
 .primeiro {
-    margin-top: 150px;
+    margin-top: 150px !important;
     /* Adiciona uma margem superior de 100px */
     margin-bottom: 20px;
     /* Adiciona uma margem inferior de 20px */
