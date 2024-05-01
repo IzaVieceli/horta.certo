@@ -11,7 +11,9 @@
 .content {
     margin-top: 100PX;
     overflow: hidden;
-    /* Limpa a flutuação */
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .cult {
