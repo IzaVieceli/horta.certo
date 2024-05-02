@@ -189,6 +189,30 @@
     /* Remove a margem inferior do parágrafo */
 }
 
+.card h4 {
+      background-color: #f5f3f0; /* Cor de fundo marrom sutil */
+        border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+              margin: 20px;
+                max-width: 300px;
+                  transition: transform 0.3s;
+                  }
+
+                  .card:hover {
+                    transform: translateY(-5px);
+                    }
+
+                    .card h4 {
+                      font-size: 20px;
+                        margin-bottom: 10px;
+                        }
+
+                        .card p {
+                          font-size: 16px;
+                            color: #666666;
+                            }
+
 .btn-saiba-mais {
     display: inline-block;
     padding: 8px 16px;
