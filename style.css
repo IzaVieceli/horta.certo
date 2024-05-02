@@ -343,6 +343,28 @@ main {
     /* Alinhamento de texto ao centro */
 }
 
+.segundo{
+    height: 70vh;
+    /* Altura do destaque */
+    background: url(./fotos/manjericao.jpeg);
+    /* Imagem de fundo */
+    background-size: cover;
+    /* Cobertura total */
+    background-position: center;
+    /* Centraliza a imagem */
+    color: #ffffff;
+    /* Cor do texto */
+    display: flex;
+    /* Cria um layout flexível */
+    flex-direction: column;
+    /* Direção dos itens */
+    justify-content: center;
+    /* Alinhamento ao centro */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+}
+
+
 main h1 {
     font-size: 2em;
     /* Tamanho da fonte */
