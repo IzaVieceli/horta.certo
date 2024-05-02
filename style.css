@@ -346,7 +346,7 @@ main {
 .segundo{
     height: 70vh;
     /* Altura do destaque */
-    background: url(./plantando);
+    background: url(./plantando.jpg);
     /* Imagem de fundo */
     background-size: cover;
     /* Cobertura total */
