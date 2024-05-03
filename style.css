@@ -189,7 +189,7 @@
     /* Remove a margem inferior do parágrafo */
 }
 
-.card {
+.card h4 {
       background-color: #d3d3d3;
         border-radius: 10px;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -197,9 +197,24 @@
               margin: 20px;
                 max-width: 300px;
                   margin-bottom: 30px;
-                  
-
  }
+
+.card h5 {
+
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
 
 .btn-saiba-mais {
     display: inline-block;
