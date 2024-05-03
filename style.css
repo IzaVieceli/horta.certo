@@ -190,13 +190,12 @@
 }
 
 .card h4 {
-      background-color: #5b35d9 !important;
-        border-radius: 10px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-              margin: 20px;
+    margin-top: 10px;
+    /* Margem superior */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+    font-size: 16px;
     
-
  }
 
 .btn-saiba-mais {
