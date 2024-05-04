@@ -193,16 +193,15 @@
 
 
 
-/* Estilo para o contêiner dos cards */
-.card-container-comp {
+/.card-container-comp {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;/
+    margin-top: 20px;
 }
 
-/* Estilo para os cards */
 .card-comp {
-    flex: 0 0 calc(50% - 10px);
+    flex: 0 0 calc(50% - 20px);
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -210,30 +209,26 @@
     margin-bottom: 20px;
 }
 
-/* Estilo para a imagem dentro do card */
 .card-comp img {
     width: 100%;
     border-radius: 10px;
 }
 
-/* Estilo para o conteúdo do card */
 .card-comp-content {
     margin-top: 20px;
-    /* Espaçamento superior */
 }
 
-/* Estilo para o título dentro do card */
 .card-comp-content h1,
 .card-comp-content h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-/* Estilo para o texto dentro do card */
 .card-comp-content p {
     font-size: 1rem;
     line-height: 1.5;
 }
+
 
 
 
