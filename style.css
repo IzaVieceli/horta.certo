@@ -189,37 +189,50 @@
     /* Remove a margem inferior do parágrafo */
 }
 
-/* Estilo para o card */
-.card-comp {
-    width: 200px; /* largura do card */
-    margin: 10px; /* margem ao redor do card */
-    text-align: center; /* alinhamento do texto ao centro */
-    border-radius: 10px; /* borda arredondada */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* sombra */
-    overflow: hidden; /* esconde o conteúdo que ultrapassa os limites do card */
+
+
+
+
+/* Estilo para o contêiner dos cards */
+.card-container-comp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;/
 }
 
-/* Estilo para a imagem dentro do card compostagem */
+/* Estilo para os cards */
+.card-comp {
+    flex: 0 0 calc(50% - 10px);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem dentro do card */
 .card-comp img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 10px 10px 0 0; 
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* Estilo para o conteúdo do card */
 .card-comp-content {
-    padding: 20px; /
+    margin-top: 20px;
+    /* Espaçamento superior */
 }
 
-/* Estilo para o título do card */
-.card-comp-title {
-    font-size: 18px;
-    margin-bottom: 10px; 
+/* Estilo para o título dentro do card */
+.card-comp-content h1,
+.card-comp-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-/* Estilo para o texto do card */
-.card-comp-text {
-    font-size: 14px; 
+/* Estilo para o texto dentro do card */
+.card-comp-content p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 
@@ -293,7 +306,6 @@ body {
     background-color: #8FBC8F;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 60px
-
 }
 
 
@@ -385,7 +397,7 @@ main {
     /* Alinhamento de texto ao centro */
 }
 
-.segundo{
+.segundo {
     height: 70vh;
     /* Altura do destaque */
     background: url(./arvore.jpg);
@@ -404,7 +416,7 @@ main {
     /* Alinhamento ao centro */
     text-align: center;
     /* Alinhamento de texto ao centro */
-width: 125%;
+    width: 125%;
 }
 
 
