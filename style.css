@@ -193,15 +193,17 @@
 
 
 
-/.card-container-comp {
+//* Estilo para o contêiner dos cards */
+.card-container-comp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 20px; /* Espaçamento do topo */
+    padding-top: 20px; /* Espaçamento interno superior */
 }
 
 .card-comp {
-    flex: 0 0 calc(45% - 80px); /* Ajuste o tamanho dos cards aqui */
+    flex: 0 0 calc(30% - 20px); /* Tamanho dos cards */
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -220,12 +222,12 @@
 
 .card-comp-content h1,
 .card-comp-content h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Tamanho dos títulos */
     margin-bottom: 10px;
 }
 
 .card-comp-content p {
-    font-size: 1rem;
+    font-size: 0.9rem; /* Tamanho do texto */
     line-height: 1.5;
 }
 
