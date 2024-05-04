@@ -218,6 +218,7 @@
 }
 
 .new-card-comp-text {
+    color: #3c00ff;
     padding: 10px;
     /* Preenchimento interno */
     text-align: center;
@@ -225,11 +226,13 @@
 }
 
 .new-card-comp-text h2 {
+    color: #e1ff00;
     margin-bottom: 10px;
     /* Margem inferior do título */
 }
 
 .new-card-comp-text p {
+    color: #00fffb;
     margin-bottom: 0;
     /* Remove a margem inferior do parágrafo */
 }
