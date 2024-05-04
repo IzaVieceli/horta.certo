@@ -193,46 +193,6 @@
 
 
 
-//* Estilo para o contêiner dos cards */
-.card-container-comp {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px; /* Espaçamento do topo */
-    padding-top: 20px; /* Espaçamento interno superior */
-}
-
-.card-comp {
-    flex: 0 0 calc(30% - 20px); /* Tamanho dos cards */
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.card-comp img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.card-comp-content {
-    margin-top: 20px;
-}
-
-.card-comp-content h1,
-.card-comp-content h2 {
-    font-size: 1.2rem; /* Tamanho dos títulos */
-    margin-bottom: 10px;
-}
-
-.card-comp-content p {
-    font-size: 0.9rem; /* Tamanho do texto */
-    line-height: 1.5;
-}
-
-
-
 
 
 
