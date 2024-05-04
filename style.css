@@ -201,7 +201,7 @@
 }
 
 .card-comp {
-    flex: 0 0 calc(50% - 20px);
+    flex: 0 0 calc(45% - 20px); /* Ajuste o tamanho dos cards aqui */
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
