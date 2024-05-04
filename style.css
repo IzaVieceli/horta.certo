@@ -118,34 +118,7 @@
 
 }
 
-.card {
-    width: 200px !important;
-    /* Largura fixa dos cartões */
-    margin: 10px;
-    /* Margem ao redor dos cartões */
-    text-align: center;
-    /* Alinhamento de texto ao centro */
-}
 
-.card img {
-    width: 100%;
-    /* Largura da imagem */
-    height: auto;
-    /* Altura automática */
-    border-radius: 10px;
-    /* Borda arredondada */
-    cursor: pointer;
-    /* Altera o cursor para indicar que a imagem é clicável */
-}
-
-.card h3 {
-    margin-top: 10px;
-    /* Margem superior */
-    text-align: center;
-    /* Alinhamento de texto ao centro */
-    font-size: 16px;
-    /* Tamanho da fonte */
-}
 
 .new-card {
     width: calc(25% - 20px);
