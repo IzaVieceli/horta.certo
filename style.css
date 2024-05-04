@@ -82,11 +82,10 @@
 .titulo-terceiro {
     text-align: center;
     margin-top: 25px;
-    color: #0056b3;
+    color:#007bff;;
     font-size: 20px;
-    font-weight: bold; /* Adiciona negrito */
+    font-weight: bold;
 }
-
 
 
 .footer {
