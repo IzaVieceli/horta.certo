@@ -119,19 +119,19 @@
 }
 
 /* Estilo padrão para links */
-a {
+.galeria .card a {
     color: #007bff; /* Cor do texto do link */
     text-decoration: none; /* Remove o sublinhado padrão */
     transition: color 0.3s; /* Suaviza a transição da cor ao passar o mouse */
 }
 
 /* Estilo quando o mouse passa por cima do link */
-a:hover {
+.galeria .card a:hover {
     color: #0056b3; /* Altera a cor do texto ao passar o mouse */
 }
 
 /* Estilo para links quando clicados */
-a:active {
+.galeria .card a:active {
     color: #ff0000; /* Cor do texto quando o link é clicado */
 }
 
