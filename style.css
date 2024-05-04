@@ -130,11 +130,6 @@ a:hover {
     color: #0056b3; /* Altera a cor do texto ao passar o mouse */
 }
 
-/* Estilo para links visitados */
-a:visited {
-    color: #663399; /* Cor do texto para links visitados */
-}
-
 /* Estilo para links quando clicados */
 a:active {
     color: #ff0000; /* Cor do texto quando o link é clicado */
