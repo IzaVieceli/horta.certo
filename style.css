@@ -194,22 +194,14 @@
 
 .new-card-comp {
     width: calc(25% - 20px);
-    /* Largura dos cards (25% da largura do container menos a margem) */
     margin: 10px auto;
-    /* Margem automática na parte superior e inferior e centralizada nas laterais */
     background-color: #b87333;
-    /* Cor de fundo do card */
     border-radius: 10px;
-    /* Borda arredondada */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    /* Sombra do card */
     overflow: hidden;
-    /* Esconde o conteúdo que ultrapassa os limites do card */
     display: inline-block;
-    /* Exibe os cards em linha */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 
