@@ -189,7 +189,38 @@
     /* Remove a margem inferior do parágrafo */
 }
 
+/* Estilo para o card */
+.card-comp {
+    width: 200px; /* largura do card */
+    margin: 10px; /* margem ao redor do card */
+    text-align: center; /* alinhamento do texto ao centro */
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* sombra */
+    overflow: hidden; /* esconde o conteúdo que ultrapassa os limites do card */
+}
 
+/* Estilo para a imagem dentro do card compostagem */
+.card-comp img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px 10px 0 0; 
+}
+
+/* Estilo para o conteúdo do card */
+.card-comp-content {
+    padding: 20px; /
+}
+
+/* Estilo para o título do card */
+.card-comp-title {
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+
+/* Estilo para o texto do card */
+.card-comp-text {
+    font-size: 14px; 
+}
 
 
 
