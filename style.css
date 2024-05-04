@@ -190,12 +190,52 @@
 }
 
 
+/* cards compostagem */
+
+.new-card-comp {
+    width: calc(25% - 20px);
+    /* Largura dos cards (25% da largura do container menos a margem) */
+    margin: 10px auto;
+    /* Margem automática na parte superior e inferior e centralizada nas laterais */
+    background-color: #ffffff;
+    /* Cor de fundo do card */
+    border-radius: 10px;
+    /* Borda arredondada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Sombra do card */
+    overflow: hidden;
+    /* Esconde o conteúdo que ultrapassa os limites do card */
+    display: inline-block;
+    /* Exibe os cards em linha */
+}
 
 
+.new-card-comp img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.new-card-comp-text {
+    padding: 10px;
+    /* Preenchimento interno */
+    text-align: center;
+    /* Alinhamento de texto ao centro */
+}
+
+.new-card-comp-text h2 {
+    margin-bottom: 10px;
+    /* Margem inferior do título */
+}
+
+.new-card-comp-text p {
+    margin-bottom: 0;
+    /* Remove a margem inferior do parágrafo */
+}
 
 
-
-
+/* fim dos cads da compostagem */
 
 
 
