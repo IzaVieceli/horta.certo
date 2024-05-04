@@ -216,8 +216,9 @@
     object-fit: cover; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+    vertical-align: bottom; /* Alinhar a imagem na parte inferior */
 }
+
 
 .new-card-comp-text {
     color: #3c00ff;
