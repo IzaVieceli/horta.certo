@@ -214,7 +214,7 @@
 .new-card-comp {
     width: calc(25% - 20px);
     margin: 10px auto;
-    background-color: #b87333;
+    background-color: #F0E68C;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -246,7 +246,7 @@
 }
 
 .new-card-comp-text p {
-    color: #b5e8cc;
+    color: #EEE8AA;
     margin-bottom: 0;
 }
 
