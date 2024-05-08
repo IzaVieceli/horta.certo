@@ -445,3 +445,12 @@ main h1 {
     float: right;
 
 }
+.primeiro-paragrafo {
+    margin-top: 130px !important;
+    /* Adiciona uma margem superior de 150px */
+    margin-bottom: 20px;
+    /* Adiciona uma margem inferior de 20px */
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+}
