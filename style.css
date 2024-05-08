@@ -214,7 +214,7 @@
 .new-card-comp {
     width: calc(25% - 20px);
     margin: 10px auto;
-    background-color: #bb753f;
+    background-color: #c9814a;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
