@@ -51,6 +51,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px;
+    font-size: 20px;
     /* Adiciona uma margem de 20px ao redor do contêiner */
 }
 
