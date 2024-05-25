@@ -390,14 +390,13 @@ nav ul li a {
 
 /* Destaque */
 main {
-    height: 70vh;
+    height: 50vh;
     /* Altura do destaque */
     background: url(./fotos/img\ banner.png);
     /* Imagem de fundo */
-    background-size: cover;
-    /* Cobertura total */
+    background-size: 100% auto; /* Largura total e altura automática */
     background-position: center;
-    /* Centraliza a imagem */
+   
     color: #ffffff;
     /* Cor do texto */
     display: flex;
