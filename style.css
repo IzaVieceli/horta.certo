@@ -388,15 +388,13 @@ nav ul li a {
 }
 
 
-/* Destaque */
-main {
-    height: 90vh;
+.banner {
+    height: 80rem;
     /* Altura do destaque */
     background: url(./fotos/parana.png);
     /* Imagem de fundo */
-    background-size: 100% auto; /* Largura total e altura automática */
+    background-size: cover; /* Cobre todo o banner mantendo a proporção */
     background-position: center;
-   
     color: #3ad03a;
     /* Cor do texto */
     display: flex;
@@ -407,6 +405,28 @@ main {
     /* Alinhamento ao centro */
     text-align: center;
     /* Alinhamento de texto ao centro */
+}
+
+/* Media query para dispositivos menores */
+@media (max-width: 1200px) {
+    .banner {
+        height: 60rem;
+        /* Altura reduzida para telas menores */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 40rem;
+        /* Altura reduzida ainda mais para tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 30rem;
+        /* Altura reduzida para smartphones */
+    }
 }
 
 .segundo {
