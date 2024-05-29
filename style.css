@@ -403,24 +403,7 @@ nav ul li a {
     box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
 }
 
-/* Media query para dispositivos menores */
-@media (max-width: 1200px) {
-    .banner {
-        height: 70vh;
-    }
-}
 
-@media (max-width: 768px) {
-    .banner {
-        height: 60vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .banner {
-        height: 50vh;
-    }
-}
 
 
 .segundo {
