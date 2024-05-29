@@ -390,10 +390,9 @@ nav ul li a {
 
 .container-banner {
     height: 80vh; /* Usando unidades de viewport para a altura */
-    background: url(./fotos/parana.png) no-repeat center center;
-    /* Imagem de fundo centralizada e sem repetição */
+    background: url(./fotos/parana.png) no-repeat center center; /* Imagem de fundo centralizada e sem repetição */
     background-size: cover; /* Cobre todo o banner mantendo a proporção */
-    color: #007bff;; /* Cor do texto */
+    color: #007bff; /* Cor do texto */
     display: flex; /* Cria um layout flexível */
     flex-direction: column; /* Direção dos itens */
     justify-content: center; /* Alinhamento ao centro */
@@ -401,7 +400,7 @@ nav ul li a {
     text-align: center; /* Alinhamento de texto ao centro */
     padding: 2rem; /* Espaçamento interno */
     box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
-    font-size: 2rem;
+    font-size: 2rem; /* Tamanho da fonte */
 }
 
 
