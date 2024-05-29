@@ -390,7 +390,7 @@ nav ul li a {
 
 .banner {
     height: 80vh; /* Usando unidades de viewport para a altura */
-    background: url(./fotos/parana.png);
+    background: url(./fotos/parana.png) no-repeat center center;
     /* Imagem de fundo centralizada e sem repetição */
     background-size: cover; /* Cobre todo o banner mantendo a proporção */
     color: #3ad03a; /* Cor do texto */
