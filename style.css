@@ -389,45 +389,39 @@ nav ul li a {
 
 
 .banner {
-    height: 80rem;
-    /* Altura do destaque */
-    background: url(./fotos/parana.png);
-    /* Imagem de fundo */
+    height: 80vh; /* Usando unidades de viewport para a altura */
+    background: url(./fotos/parana.png) no-repeat center center;
+    /* Imagem de fundo centralizada e sem repetição */
     background-size: cover; /* Cobre todo o banner mantendo a proporção */
-    background-position: center;
-    color: #3ad03a;
-    /* Cor do texto */
-    display: flex;
-    /* Cria um layout flexível */
-    flex-direction: column;
-    /* Direção dos itens */
-    justify-content: center;
-    /* Alinhamento ao centro */
-    text-align: center;
-    /* Alinhamento de texto ao centro */
+    color: #3ad03a; /* Cor do texto */
+    display: flex; /* Cria um layout flexível */
+    flex-direction: column; /* Direção dos itens */
+    justify-content: center; /* Alinhamento ao centro */
+    align-items: center; /* Alinhamento dos itens ao centro */
+    text-align: center; /* Alinhamento de texto ao centro */
+    padding: 2rem; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
 }
 
 /* Media query para dispositivos menores */
 @media (max-width: 1200px) {
     .banner {
-        height: 60rem;
-        /* Altura reduzida para telas menores */
+        height: 70vh;
     }
 }
 
 @media (max-width: 768px) {
     .banner {
-        height: 40rem;
-        /* Altura reduzida ainda mais para tablets */
+        height: 60vh;
     }
 }
 
 @media (max-width: 480px) {
     .banner {
-        height: 30rem;
-        /* Altura reduzida para smartphones */
+        height: 50vh;
     }
 }
+
 
 .segundo {
     height: 70vh;
