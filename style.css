@@ -316,7 +316,7 @@ header {
 
 
 body {
-    background-color: #8FBC8F;
+    background: linear-gradient(0deg, rgba(49,255,142,1) 0%, rgba(142,141,141,0.7819502801120448) 100%);
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 60px;
 }
@@ -388,7 +388,7 @@ nav ul li a {
 }
 
 
-.container {
+.main {
     height: 80vh; /* Usando unidades de viewport para a altura */
     background: url(./fotos/parana.png) no-repeat center center;
     /* Imagem de fundo centralizada e sem repetição */
