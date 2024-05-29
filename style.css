@@ -311,12 +311,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: color: #57A663;
+    background-color: #57A663;
 }
 
 
 body {
-    background: color: #ffffff;
+    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 60px;
 }
