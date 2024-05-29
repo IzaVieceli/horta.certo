@@ -216,7 +216,7 @@
 .new-card-comp {
     width: calc(25% - 20px);
     margin: 10px auto;
-    background-color: #d8925d;
+    background-color: #007bff;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -259,7 +259,7 @@
 .btn-saiba-mais {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #dfdb11;
+    background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
