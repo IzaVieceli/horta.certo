@@ -403,6 +403,13 @@ nav ul li a {
     font-size: 1.5rem; /* Tamanho da fonte */
 }
 
+/* Media query para ajustar o banner em telas menores */
+@media (max-width: 600px) {
+    .container-banner {
+        padding: 1rem; /* Reduz o espaçamento interno */
+        font-size: 1.5rem; /* Reduz o tamanho da fonte */
+    }
+}
 
 
 
