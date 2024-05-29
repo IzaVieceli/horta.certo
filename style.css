@@ -459,7 +459,7 @@ main h1 {
 
 
 /* MENU HAMBURGER */
-a {
+.menu {
     color: #ffff;
     text-decoration: none;
   }
