@@ -177,7 +177,7 @@
     /* Cor de fundo do card */
     border-radius: 10px;
     /* Borda arredondada */
-    box-shadow: 0 0 5px  #57A663;;
+    box-shadow: 0 0 10px  #57A663;;
     /* Sombra do card */
     overflow: hidden;
     /* Esconde o conteúdo que ultrapassa os limites do card */
