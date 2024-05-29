@@ -401,6 +401,7 @@ nav ul li a {
     text-align: center; /* Alinhamento de texto ao centro */
     padding: 2rem; /* Espaçamento interno */
     box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
+    font-size: 2rem;
 }
 
 
